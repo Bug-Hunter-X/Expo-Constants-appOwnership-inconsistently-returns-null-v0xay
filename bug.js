@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Constants.appOwnership` property.  It sometimes returns `null` unexpectedly, even when the app is clearly owned by the user. This is inconsistent and leads to unpredictable behavior in conditional logic that relies on this property.
